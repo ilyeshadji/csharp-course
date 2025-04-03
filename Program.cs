@@ -8,24 +8,18 @@ namespace Hello_World
     {
         public static void Main(string[] args)
         {
-            double firstNumber;
-            double secondNumber;
-            double sum;
+            int num = 10;
+            double price = 10.50;
+            string name = "Frank";
 
-            System.Console.Write("Enter the first number: ");
-            firstNumber = double.Parse(Console.ReadLine());
+            // concatenation
+            System.Console.WriteLine("The number is " + num + ", the price is " + price + ", with name " + name);
 
-            System.Console.Write("Enter the second number: ");
-            secondNumber = double.Parse(Console.ReadLine());
+            // interpolation
+            System.Console.WriteLine($"The number is {num}, the price is {price}, with name {name}");
 
-            // Rounding to two decimal place
-            sum = Math.Round(firstNumber + secondNumber, 2);
-
-            // String concatenation
-            Console.WriteLine("The sum is: " + sum);
-
-            // String interpolation
-            Console.WriteLine($"The sum is: {sum}");
+            // formatting
+            System.Console.WriteLine("The number is {0}, the price is {1}, with name {2}", num, price, name);
         }
     }
 }
