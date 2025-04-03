@@ -8,15 +8,23 @@ namespace Hello_World
     {
         public static void Main(string[] args)
         {
-            // Value types
-            int myAge = 30;
-            double pi = 3.1416;
+            int firstNumber;
+            int secondNumber;
+            int sum;
 
-            byte age = 255; // 256 bit
+            System.Console.Write("Enter the first whole number: ");
+            firstNumber = int.Parse(Console.ReadLine());
 
-            short linkedinConnections = 32550;
+            System.Console.Write("Enter the second whole number:");
+            secondNumber = int.Parse(Console.ReadLine());
 
-            float pi2 = 3.14f; // need to add an f at the end
+            sum = firstNumber + secondNumber;
+
+            // String concatenation
+            Console.WriteLine("The sum is: " + sum);
+
+            // String interpolation
+            Console.WriteLine($"The sum is: {sum}");
         }
     }
 }
