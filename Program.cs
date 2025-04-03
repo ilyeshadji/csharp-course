@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.Reflection;
+using CSharpMasterclass;
 
 namespace Hello_World
 {
@@ -8,10 +9,10 @@ namespace Hello_World
     {
         public static void Main(string[] args)
         {
-            for (int i = 0; i < 5; i++)
-            {
-                Console.WriteLine(i);
-            }
+            Car car1 = new Car("mything", true);
+
+            car1.Model = Console.ReadLine();
+            System.Console.WriteLine("Car model: " + car1.Model);
         }
     }
 }
