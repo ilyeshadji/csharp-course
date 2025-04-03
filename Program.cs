@@ -8,17 +8,18 @@ namespace Hello_World
     {
         public static void Main(string[] args)
         {
-            int firstNumber;
-            int secondNumber;
-            int sum;
+            double firstNumber;
+            double secondNumber;
+            double sum;
 
-            System.Console.Write("Enter the first whole number: ");
-            firstNumber = int.Parse(Console.ReadLine());
+            System.Console.Write("Enter the first number: ");
+            firstNumber = double.Parse(Console.ReadLine());
 
-            System.Console.Write("Enter the second whole number:");
-            secondNumber = int.Parse(Console.ReadLine());
+            System.Console.Write("Enter the second number: ");
+            secondNumber = double.Parse(Console.ReadLine());
 
-            sum = firstNumber + secondNumber;
+            // Rounding to two decimal place
+            sum = Math.Round(firstNumber + secondNumber, 2);
 
             // String concatenation
             Console.WriteLine("The sum is: " + sum);
