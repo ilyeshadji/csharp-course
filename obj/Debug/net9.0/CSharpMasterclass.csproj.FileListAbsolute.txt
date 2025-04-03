@@ -12,3 +12,4 @@
 /Users/ilyeshadji/Repos/CSharpMasterclass/obj/Debug/net9.0/CSharpMasterclass.pdb
 /Users/ilyeshadji/Repos/CSharpMasterclass/obj/Debug/net9.0/CSharpMasterclass.genruntimeconfig.cache
 /Users/ilyeshadji/Repos/CSharpMasterclass/obj/Debug/net9.0/ref/CSharpMasterclass.dll
+/Users/ilyeshadji/Repos/CSharpMasterclass/obj/Debug/net9.0/CSharpMasterclass.sourcelink.json
