@@ -9,10 +9,12 @@ namespace Hello_World
     {
         public static void Main(string[] args)
         {
-            Car car1 = new Car("mything", true);
+            Customer c1 = new Customer();
+            Customer c2 = new Customer();
 
-            car1.Model = Console.ReadLine();
-            System.Console.WriteLine("Car model: " + car1.Model);
+            System.Console.WriteLine("C1: " + c1.Id);
+            System.Console.WriteLine("C2: " + c2.Id);
+
         }
     }
 }
