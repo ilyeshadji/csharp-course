@@ -8,25 +8,10 @@ namespace Hello_World
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Give me a number:");
-            string inputString = Console.ReadLine();
-
-            int num1;
-
-            bool isNumber = int.TryParse(inputString, out num1);
-
-            if (!isNumber)
+            for (int i = 0; i < 5; i++)
             {
-                System.Console.WriteLine("You trolled! You should enter a number");
+                Console.WriteLine(i);
             }
-            else
-            {
-                num1++;
-
-                Console.WriteLine("User entered number +1 " + num1);
-            }
-
-
         }
     }
 }
