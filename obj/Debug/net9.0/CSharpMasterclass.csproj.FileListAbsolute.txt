@@ -1,0 +1,14 @@
+/Users/ilyeshadji/Repos/CSharpMasterclass/bin/Debug/net9.0/CSharpMasterclass
+/Users/ilyeshadji/Repos/CSharpMasterclass/bin/Debug/net9.0/CSharpMasterclass.deps.json
+/Users/ilyeshadji/Repos/CSharpMasterclass/bin/Debug/net9.0/CSharpMasterclass.runtimeconfig.json
+/Users/ilyeshadji/Repos/CSharpMasterclass/bin/Debug/net9.0/CSharpMasterclass.dll
+/Users/ilyeshadji/Repos/CSharpMasterclass/bin/Debug/net9.0/CSharpMasterclass.pdb
+/Users/ilyeshadji/Repos/CSharpMasterclass/obj/Debug/net9.0/CSharpMasterclass.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ilyeshadji/Repos/CSharpMasterclass/obj/Debug/net9.0/CSharpMasterclass.AssemblyInfoInputs.cache
+/Users/ilyeshadji/Repos/CSharpMasterclass/obj/Debug/net9.0/CSharpMasterclass.AssemblyInfo.cs
+/Users/ilyeshadji/Repos/CSharpMasterclass/obj/Debug/net9.0/CSharpMasterclass.csproj.CoreCompileInputs.cache
+/Users/ilyeshadji/Repos/CSharpMasterclass/obj/Debug/net9.0/CSharpMasterclass.dll
+/Users/ilyeshadji/Repos/CSharpMasterclass/obj/Debug/net9.0/refint/CSharpMasterclass.dll
+/Users/ilyeshadji/Repos/CSharpMasterclass/obj/Debug/net9.0/CSharpMasterclass.pdb
+/Users/ilyeshadji/Repos/CSharpMasterclass/obj/Debug/net9.0/CSharpMasterclass.genruntimeconfig.cache
+/Users/ilyeshadji/Repos/CSharpMasterclass/obj/Debug/net9.0/ref/CSharpMasterclass.dll
