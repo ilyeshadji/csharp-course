@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.Reflection;
-using CSharpMasterclass;
+
 
 namespace Hello_World
 {
@@ -9,12 +9,19 @@ namespace Hello_World
     {
         public static void Main(string[] args)
         {
-            Customer c1 = new Customer();
-            Customer c2 = new Customer();
+            // How to declare a list
+            List<string> list = new List<string>();
 
-            System.Console.WriteLine("C1: " + c1.Id);
-            System.Console.WriteLine("C2: " + c2.Id);
+            // Add
+            list.Add("yellow");
+            list.Add("blue");
+            list.Add("green");
 
+            // Accessing list items
+            foreach (string color in list)
+            {
+                System.Console.WriteLine(color);
+            }
         }
     }
 }
